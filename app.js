@@ -49,6 +49,40 @@
 // };
 // console.log(result);
 
+//6-masala
+
+// function getElementsOneTime(arr) {
+//   let n = {};
+//   let result = [];
+
+//   arr.forEach((element) => {
+//     if (!n[element]) {
+//       n[element] = 1;
+//     } else {
+//       n[element]++;
+//     }
+//   });
+
+//   arr.forEach((element) => {
+//     if (n[element] === 1) {
+//       result.push(element);
+//     }
+//   });
+
+//   return result;
+// }
+
+// const inputArray = [1, 3, 9, 1, 5, 9, 2];
+// console.log(getElementsOneTime(inputArray));
+
+//7-masala
+
+// const text = "Men Abdulaziz Programmerman".split(" ").some(() => {
+//   " ";
+// });
+
+// console.log(text);
+
 //8-masala
 
 // const pupils = [
@@ -69,6 +103,21 @@
 // const _ = pupils.length - ball;
 // console.log("imtixondan o'tganlar soni:", ball + " ta");
 // console.log("imtixondan o'ta olmaganlar soni:", _ + " ta");
+
+//9-masala
+
+// let numbers = [3, 3, 5, 7, 5, 7, 9, 2, 5, 5];
+
+// function n(arr) {
+//   return arr.reduce((acc, curVal) => {
+//     if (acc.indexOf(curVal) === -1) {
+//       acc.push(curVal);
+//     }
+//     return acc;
+//   }, []);
+// }
+// let result = n(numbers);
+// console.log(result);
 
 // 10-masala
 
